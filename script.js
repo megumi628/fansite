@@ -13,8 +13,8 @@ window.onload = function () {
   
   let secondPics = [
     "tate2.JPG",
-	"tate8.jpeg",
-	"tate7.jpeg" 
+	"tate8.jpg",
+	"tate7.jpg" 
   ];
 
   let secondImg = document.querySelector("#mainImage");
