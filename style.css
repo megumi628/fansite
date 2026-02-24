@@ -1,0 +1,58 @@
+body {
+    margin:0px;
+    padding:0px;
+	background-color:#191B1B;
+    text-align: center;
+	
+}
+
+p {
+    font-size: calc(100vw - 3);
+	color: white;
+	text-align: center;
+}
+
+h1 {
+    text-align: center;
+	color: white;
+}
+
+h2{
+    text-align: center;
+	color:white;
+	font-size:200%;
+}
+
+.line-height-number {
+            font-size: 16px;
+            line-height: 1.8;
+        }
+#main {
+    width:100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#column_1 {
+    width:50vw;
+}
+
+#column_2 {
+    width:50vw;
+    align-items: center;
+    justify-content: center;  
+}
+
+@media (max-width: 480px)
+{
+    #main {
+        display:block;
+    }
+    #column_1 {
+        width:100vw;
+    }
+
+    #column_2 {
+        width:100vw;
+    }
+}
