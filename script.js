@@ -12,7 +12,7 @@ window.onload = function () {
     }, 1000);
   
   let secondPics = [
-    "tate2.JPG",
+    "tate.jpeg",
 	"tate8.JPG",
 	"tate7.JPG", 
   ];
